@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>개인정보처리방침 - karaoke-music-search</title>
+<style>
+  body { font-family: -apple-system, "Apple SD Gothic Neo", "Noto Sans KR", sans-serif; max-width: 680px; margin: 40px auto; padding: 0 16px; line-height: 1.7; color: #222; background: #fff; }
+  h1 { font-size: 1.6rem; }
+  h2 { font-size: 1.15rem; margin-top: 32px; }
+  a { color: #1a5fd0; }
+  .date { color: #666; }
+</style>
+</head>
+<body>
+  <h1>개인정보처리방침</h1>
+  <p class="date">시행일: 2026년 10월 13일</p>
+
+  <p>karaoke-music-search(이하 "앱")는 개발자 본인이 개인적으로 사용하기 위한 앱입니다. 이 문서는 앱이 Google 사용자 데이터에 어떻게 접근하고, 이를 어떻게 사용·저장·공유하는지 설명합니다.</p>
+
+  <h2>1. 접근하는 데이터</h2>
+  <p>사용자가 Google 로그인 화면에서 직접 승인한 경우에만 아래 데이터에 접근합니다.</p>
+  <ul>
+    <li><strong>YouTube 읽기 권한</strong>(<code>youtube.readonly</code>): 사용자의 플레이리스트 목록, 플레이리스트에 담긴 동영상의 제목·채널 이름·동영상 ID, 채널 이름</li>
+    <li><strong>YouTube 관리 권한</strong>(<code>youtube</code>, 사용자가 내보내기 기능을 켤 때만 요청): 앱에서 만든 재생목록을 사용자의 YouTube 계정에 플레이리스트로 만들고, 그 플레이리스트에 동영상을 추가·삭제·정렬</li>
+  </ul>
+  <p>앱은 이메일 주소, 연락처, 시청 기록, 구독 목록, 결제 정보 등 위에 적지 않은 데이터에는 접근하지 않습니다.</p>
+
+  <h2>2. 데이터 사용 목적</h2>
+  <ul>
+    <li>플레이리스트의 곡 목록을 가져와 곡마다 노래방(TJ미디어·금영) 번호를 찾아 보여주기 위해</li>
+    <li>사용자가 요청한 경우, 앱에서 만든 재생목록을 사용자의 YouTube 계정에 내보내기 위해</li>
+  </ul>
+  <p>Google 사용자 데이터는 위 기능을 제공하는 데에만 사용하며, 광고, 프로필 분석, 머신러닝 모델 학습 등 다른 목적에는 사용하지 않습니다.</p>
+
+  <h2>3. 저장</h2>
+  <ul>
+    <li>곡 제목, 가수, 동영상 ID, 플레이리스트 구성, 노래방 번호는 개발자가 운영하는 개인 서버의 데이터베이스에 저장합니다.</li>
+    <li>Google 로그인 후 받은 인증 토큰은 <strong>암호화하여</strong> 같은 서버에 저장하며, 로그에 기록하지 않습니다.</li>
+    <li>서버는 외부에 공개되지 않은 네트워크(VPN)에서만 접근할 수 있습니다.</li>
+  </ul>
+
+  <h2>4. 공유</h2>
+  <p>Google 사용자 데이터를 제3자에게 판매하거나 제공하지 않습니다. 노래방 번호를 찾기 위해 곡 제목과 가수 이름만 공개 노래방 번호 검색 서비스에 조회합니다(사용자 계정 정보는 보내지 않습니다).</p>
+
+  <h2>5. Google API 서비스 사용자 데이터 정책 준수</h2>
+  <p>앱이 Google API에서 받은 정보를 사용하고 다른 앱으로 전송하는 방식은 제한적 사용(Limited Use) 요건을 포함한 <a href="https://developers.google.com/terms/api-services-user-data-policy">Google API 서비스 사용자 데이터 정책</a>을 준수합니다.</p>
+
+  <h2>6. 권한 철회와 데이터 삭제</h2>
+  <ul>
+    <li>앱 안에서 YouTube 계정 연결을 해제하면 저장된 인증 토큰이 즉시 삭제되고 Google에 권한 철회가 요청됩니다.</li>
+    <li><a href="https://myaccount.google.com/permissions">Google 계정의 서드파티 액세스 페이지</a>에서도 언제든 권한을 철회할 수 있습니다.</li>
+    <li>앱에 저장된 곡·재생목록 데이터는 개발자에게 요청하면 삭제합니다.</li>
+  </ul>
+
+  <h2>7. 문의</h2>
+  <p>이 방침에 대한 문의는 아래 이메일로 보내주세요.<br>
+  <strong>stdodentysoung@gmail.com</strong></p>
+
+  <p><a href="index.html">← 홈으로</a></p>
+</body>
+</html>
